@@ -1,0 +1,2 @@
+wwwroot\index.html
+C:\Users\Maryory\source\repos\ServiciosWeb.S09\ServiciosWeb.S09\wwwroot\index.html

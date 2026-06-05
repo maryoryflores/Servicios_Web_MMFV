@@ -1,0 +1,188 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Consumir API</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 20px;
+        }
+
+        .grupo {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        input, select, button {
+            margin: 5px;
+            padding: 5px;
+        }
+
+        pre {
+            background: #f0f0f0;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Prueba de API - Semana 09</h1>
+
+    <div class="grupo">
+
+        <h3>1. Clasificar Edad</h3>
+
+        <input type="number"
+               id="edad"
+               placeholder="Edad">
+
+        <button onclick="clasificarEdad()">
+            Clasificar
+        </button>
+
+    </div>
+
+    <div class="grupo">
+
+        <h3>2. Validar Acceso</h3>
+
+        <input type="text"
+               id="usuario"
+               placeholder="Usuario">
+
+        <input type="password"
+               id="clave"
+               placeholder="Clave">
+
+        <button onclick="validarAcceso()">
+            Validar
+        </button>
+
+        <p>
+            Usuarios: admin/123 - user/123
+        </p>
+
+    </div>
+
+    <div class="grupo">
+
+        <h3>3. Calcular Descuento</h3>
+
+        <select id="tipo">
+            <option value="vip">VIP</option>
+            <option value="regular">Regular</option>
+            <option value="nuevo">Nuevo</option>
+        </select>
+
+        <input type="number"
+               id="monto"
+               placeholder="Monto">
+
+        <button onclick="calcularDescuento()">
+            Calcular
+        </button>
+
+    </div>
+
+    <div class="grupo">
+
+        <h3>4. Día de la Semana</h3>
+
+        <input type="number"
+               id="numero"
+               placeholder="Número (1-7)">
+
+        <button onclick="diaSemana()">
+            Obtener Día
+        </button>
+
+    </div>
+
+    <h3>Resultado:</h3>
+
+<pre id="resultado">
+Esperando acción...
+</pre>
+
+    <script>
+
+const baseUrl =
+"https://localhost:7024/api/condicionales";
+
+async function clasificarEdad()
+{
+    const edad =
+    document.getElementById("edad").value;
+
+    const respuesta =
+    await fetch(
+    `${baseUrl}/clasificar-edad/${edad}`);
+
+    const data =
+    await respuesta.json();
+
+    document.getElementById("resultado")
+    .textContent = data.resultado;
+}
+
+async function validarAcceso()
+{
+    const usuario =
+    document.getElementById("usuario").value;
+
+    const clave =
+    document.getElementById("clave").value;
+
+    const respuesta =
+    await fetch(
+    `${baseUrl}/validar-acceso/${usuario}/${clave}`);
+
+    const data =
+    await respuesta.json();
+
+    document.getElementById("resultado")
+    .textContent = data.resultado;
+}
+
+async function calcularDescuento()
+{
+    const tipo =
+    document.getElementById("tipo").value;
+
+    const monto =
+    document.getElementById("monto").value;
+
+    const respuesta =
+    await fetch(
+    `${baseUrl}/calcular-descuento/${tipo}/${monto}`);
+
+    const data =
+    await respuesta.json();
+
+    document.getElementById("resultado")
+    .textContent = data.resultado;
+}
+
+async function diaSemana()
+{
+    const numero =
+    document.getElementById("numero").value;
+
+    const respuesta =
+    await fetch(
+    `${baseUrl}/dia-semana/${numero}`);
+
+    const data =
+    await respuesta.json();
+
+    document.getElementById("resultado")
+    .textContent = data.resultado;
+}
+
+    </script>
+
+</body>
+</html>
