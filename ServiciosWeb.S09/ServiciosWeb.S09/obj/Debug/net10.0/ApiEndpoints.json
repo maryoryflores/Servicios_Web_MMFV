@@ -1,5 +1,116 @@
 [
   {
+    "ContainingType": "ServiciosWeb.S09.Controllers.BucleController",
+    "Method": "Factorial",
+    "RelativePath": "api/bucles/factorial/{n}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "n",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ServiciosWeb.S09.Controllers.BucleController",
+    "Method": "Fibonacci",
+    "RelativePath": "api/bucles/fibonacci/{n}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "n",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ServiciosWeb.S09.Controllers.BucleController",
+    "Method": "ListaProductos",
+    "RelativePath": "api/bucles/lista-productos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ServiciosWeb.S09.Controllers.BucleController",
+    "Method": "NumerosPares",
+    "RelativePath": "api/bucles/numeros-pares/{n}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "n",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ServiciosWeb.S09.Controllers.BucleController",
+    "Method": "SumarNumeros",
+    "RelativePath": "api/bucles/sumar-numeros/{n}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "n",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ServiciosWeb.S09.Controllers.BucleController",
+    "Method": "TablaMultiplicar",
+    "RelativePath": "api/bucles/tabla-multiplicar/{numero}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "numero",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ServiciosWeb.S09.Controllers.BucleController",
+    "Method": "ValidarAcceso",
+    "RelativePath": "api/bucles/validar-acceso/{usuario}/{clave}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "clave",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ServiciosWeb.S09.Controllers.CondicionalesController",
     "Method": "CalcularDescuento",
     "RelativePath": "api/Condicionales/calcular-descuento/{tipo}/{monto}",

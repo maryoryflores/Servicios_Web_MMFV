@@ -83,23 +83,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Maryory\\.nuget\\packages\\": {},
+    "C:\\Users\\pitop\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Maryory\\source\\repos\\ServiciosWeb.S09\\ServiciosWeb.S09\\ServiciosWeb.S09.csproj",
+      "projectUniqueName": "C:\\Users\\pitop\\source\\repos\\SEMANA N10\\Servicios_Web_MMFV\\ServiciosWeb.S09\\ServiciosWeb.S09\\ServiciosWeb.S09.csproj",
       "projectName": "ServiciosWeb.S09",
-      "projectPath": "C:\\Users\\Maryory\\source\\repos\\ServiciosWeb.S09\\ServiciosWeb.S09\\ServiciosWeb.S09.csproj",
-      "packagesPath": "C:\\Users\\Maryory\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Maryory\\source\\repos\\ServiciosWeb.S09\\ServiciosWeb.S09\\obj\\",
+      "projectPath": "C:\\Users\\pitop\\source\\repos\\SEMANA N10\\Servicios_Web_MMFV\\ServiciosWeb.S09\\ServiciosWeb.S09\\ServiciosWeb.S09.csproj",
+      "packagesPath": "C:\\Users\\pitop\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pitop\\source\\repos\\SEMANA N10\\Servicios_Web_MMFV\\ServiciosWeb.S09\\ServiciosWeb.S09\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Maryory\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pitop\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

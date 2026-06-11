@@ -1,0 +1,215 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Consumir API - Semana 10</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 20px;
+        }
+
+        .grupo {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        input, button {
+            margin: 5px;
+            padding: 5px;
+        }
+
+        pre {
+            background: #f0f0f0;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Prueba de API - Semana 10</h1>
+
+    <div class="grupo">
+
+        <h3>1. Tabla de Multiplicar</h3>
+
+        <input type="number"
+               id="tabla"
+               placeholder="Número">
+
+        <button onclick="tablaMultiplicar()">
+            Generar
+        </button>
+
+    </div>
+
+    <div class="grupo">
+
+        <h3>2. Sumar Números del 1 al N</h3>
+
+        <input type="number"
+               id="suma"
+               placeholder="Número">
+
+        <button onclick="sumarNumeros()">
+            Calcular
+        </button>
+
+    </div>
+
+    <div class="grupo">
+
+        <h3>3. Números Pares</h3>
+
+        <input type="number"
+               id="pares"
+               placeholder="Hasta">
+
+        <button onclick="numerosPares()">
+            Mostrar
+        </button>
+
+    </div>
+
+    <div class="grupo">
+
+        <h3>4. Factorial</h3>
+
+        <input type="number"
+               id="factorial"
+               placeholder="Número">
+
+        <button onclick="calcularFactorial()">
+            Calcular
+        </button>
+
+    </div>
+
+    <div class="grupo">
+
+        <h3>5. Validar Acceso</h3>
+
+        <input type="text"
+               id="usuario"
+               placeholder="Usuario">
+
+        <input type="text"
+               id="clave"
+               placeholder="Clave">
+
+        <button onclick="validarAcceso()">
+            Validar
+        </button>
+
+    </div>
+
+    <div class="grupo">
+
+        <h3>6. Lista de Productos</h3>
+
+        <button onclick="listaProductos()">
+            Mostrar
+        </button>
+
+    </div>
+
+    <div class="grupo">
+
+        <h3>7. Fibonacci</h3>
+
+        <input type="number"
+               id="fibo"
+               placeholder="Cantidad">
+
+        <button onclick="fibonacci()">
+            Generar
+        </button>
+
+    </div>
+
+    <h3>Resultado:</h3>
+
+<pre id="resultado">
+Esperando acción...
+</pre>
+<script>
+
+    const baseUrl = "https://localhost:7024/api/bucles";
+
+    async function mostrarResultado(url) {
+        try {
+            const respuesta = await fetch(url);
+
+            const texto = await respuesta.text();
+
+            document.getElementById("resultado")
+                .textContent = texto;
+        }
+        catch (error) {
+            document.getElementById("resultado")
+                .textContent = "Error: " + error.message;
+        }
+    }
+
+    function tablaMultiplicar() {
+        const numero =
+            document.getElementById("tabla").value;
+
+        mostrarResultado(
+            `${baseUrl}/tabla-multiplicar/${numero}`);
+    }
+
+    function sumarNumeros() {
+        const numero =
+            document.getElementById("suma").value;
+
+        mostrarResultado(
+            `${baseUrl}/sumar-numeros/${numero}`);
+    }
+
+    function numerosPares() {
+        const numero =
+            document.getElementById("pares").value;
+
+        mostrarResultado(
+            `${baseUrl}/numeros-pares/${numero}`);
+    }
+
+    function calcularFactorial() {
+        const numero =
+            document.getElementById("factorial").value;
+
+        mostrarResultado(
+            `${baseUrl}/factorial/${numero}`);
+    }
+
+    function validarAcceso() {
+        const usuario =
+            document.getElementById("usuario").value;
+
+        const clave =
+            document.getElementById("clave").value;
+
+        mostrarResultado(
+            `${baseUrl}/validar-acceso/${usuario}/${clave}`);
+    }
+
+    function listaProductos() {
+        mostrarResultado(
+            `${baseUrl}/lista-productos`);
+    }
+
+    function fibonacci() {
+        const numero =
+            document.getElementById("fibo").value;
+
+        mostrarResultado(
+            `${baseUrl}/fibonacci/${numero}`);
+    }
+
+</script>
+
+</body>
+</html>

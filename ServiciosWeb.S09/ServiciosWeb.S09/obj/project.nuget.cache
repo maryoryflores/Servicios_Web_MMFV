@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "xmvXY8VFecA=",
+  "dgSpecHash": "ONvzr9+C9FQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Maryory\\source\\repos\\ServiciosWeb.S09\\ServiciosWeb.S09\\ServiciosWeb.S09.csproj",
+  "projectFilePath": "C:\\Users\\pitop\\source\\repos\\SEMANA N10\\Servicios_Web_MMFV\\ServiciosWeb.S09\\ServiciosWeb.S09\\ServiciosWeb.S09.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Maryory\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.8\\microsoft.aspnetcore.openapi.10.0.8.nupkg.sha512",
-    "C:\\Users\\Maryory\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+    "C:\\Users\\pitop\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.8\\microsoft.aspnetcore.openapi.10.0.8.nupkg.sha512",
+    "C:\\Users\\pitop\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
   ],
   "logs": []
 }

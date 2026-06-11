@@ -1,2 +1,4 @@
-wwwroot\index.html
-C:\Users\Maryory\source\repos\ServiciosWeb.S09\ServiciosWeb.S09\wwwroot\index.html
+wwwroot\indexS10.html
+wwwroot\indexS09.html
+C:\Users\pitop\source\repos\Servicios_Web_MMFV\ServiciosWeb.S09\ServiciosWeb.S09\wwwroot\indexS10.html
+C:\Users\pitop\source\repos\Servicios_Web_MMFV\ServiciosWeb.S09\ServiciosWeb.S09\wwwroot\indexS09.html

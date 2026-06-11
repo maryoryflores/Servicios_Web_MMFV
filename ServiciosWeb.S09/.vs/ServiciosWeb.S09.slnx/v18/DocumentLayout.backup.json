@@ -1,83 +1,108 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Maryory\\source\\repos\\ServiciosWeb.S09\\",
+  "WorkspaceRootPath": "C:\\Users\\pitop\\source\\repos\\Servicios_Web_MMFV\\ServiciosWeb.S09\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{22428D3E-D356-40E4-9E04-800430B12B95}|ServiciosWeb.S09\\ServiciosWeb.S09.csproj|c:\\users\\maryory\\source\\repos\\serviciosweb.s09\\serviciosweb.s09\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{22428D3E-D356-40E4-9E04-800430B12B95}|ServiciosWeb.S09\\ServiciosWeb.S09.csproj|solutionrelative:serviciosweb.s09\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3F57BA5D-52FB-0EF3-023A-8B2FE8ECC842}|ServiciosWeb.S09\\ServiciosWeb.S09.csproj|c:\\users\\pitop\\source\\repos\\servicios_web_mmfv\\serviciosweb.s09\\serviciosweb.s09\\controllers\\buclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F57BA5D-52FB-0EF3-023A-8B2FE8ECC842}|ServiciosWeb.S09\\ServiciosWeb.S09.csproj|solutionrelative:serviciosweb.s09\\controllers\\buclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22428D3E-D356-40E4-9E04-800430B12B95}|ServiciosWeb.S09\\ServiciosWeb.S09.csproj|c:\\users\\maryory\\source\\repos\\serviciosweb.s09\\serviciosweb.s09\\serviciosweb.s09.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{22428D3E-D356-40E4-9E04-800430B12B95}|ServiciosWeb.S09\\ServiciosWeb.S09.csproj|solutionrelative:serviciosweb.s09\\serviciosweb.s09.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{3F57BA5D-52FB-0EF3-023A-8B2FE8ECC842}|ServiciosWeb.S09\\ServiciosWeb.S09.csproj|c:\\users\\pitop\\source\\repos\\servicios_web_mmfv\\serviciosweb.s09\\serviciosweb.s09\\wwwroot\\indexs10.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F57BA5D-52FB-0EF3-023A-8B2FE8ECC842}|ServiciosWeb.S09\\ServiciosWeb.S09.csproj|solutionrelative:serviciosweb.s09\\wwwroot\\indexs10.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22428D3E-D356-40E4-9E04-800430B12B95}|ServiciosWeb.S09\\ServiciosWeb.S09.csproj|c:\\users\\maryory\\source\\repos\\serviciosweb.s09\\serviciosweb.s09\\controllers\\condicionalescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22428D3E-D356-40E4-9E04-800430B12B95}|ServiciosWeb.S09\\ServiciosWeb.S09.csproj|solutionrelative:serviciosweb.s09\\controllers\\condicionalescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3F57BA5D-52FB-0EF3-023A-8B2FE8ECC842}|ServiciosWeb.S09\\ServiciosWeb.S09.csproj|c:\\users\\pitop\\source\\repos\\servicios_web_mmfv\\serviciosweb.s09\\serviciosweb.s09\\wwwroot\\indexs09.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F57BA5D-52FB-0EF3-023A-8B2FE8ECC842}|ServiciosWeb.S09\\ServiciosWeb.S09.csproj|solutionrelative:serviciosweb.s09\\wwwroot\\indexs09.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22428D3E-D356-40E4-9E04-800430B12B95}|ServiciosWeb.S09\\ServiciosWeb.S09.csproj|c:\\users\\maryory\\source\\repos\\serviciosweb.s09\\serviciosweb.s09\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22428D3E-D356-40E4-9E04-800430B12B95}|ServiciosWeb.S09\\ServiciosWeb.S09.csproj|solutionrelative:serviciosweb.s09\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3F57BA5D-52FB-0EF3-023A-8B2FE8ECC842}|ServiciosWeb.S09\\ServiciosWeb.S09.csproj|c:\\users\\pitop\\source\\repos\\servicios_web_mmfv\\serviciosweb.s09\\serviciosweb.s09\\controllers\\condicionalescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F57BA5D-52FB-0EF3-023A-8B2FE8ECC842}|ServiciosWeb.S09\\ServiciosWeb.S09.csproj|solutionrelative:serviciosweb.s09\\controllers\\condicionalescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F57BA5D-52FB-0EF3-023A-8B2FE8ECC842}|ServiciosWeb.S09\\ServiciosWeb.S09.csproj|c:\\users\\pitop\\source\\repos\\servicios_web_mmfv\\serviciosweb.s09\\serviciosweb.s09\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F57BA5D-52FB-0EF3-023A-8B2FE8ECC842}|ServiciosWeb.S09\\ServiciosWeb.S09.csproj|solutionrelative:serviciosweb.s09\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
+      "VerticalTabListWidth": 116,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\Maryory\\source\\repos\\ServiciosWeb.S09\\ServiciosWeb.S09\\wwwroot\\index.html",
-              "RelativeDocumentMoniker": "ServiciosWeb.S09\\wwwroot\\index.html",
-              "ToolTip": "C:\\Users\\Maryory\\source\\repos\\ServiciosWeb.S09\\ServiciosWeb.S09\\wwwroot\\index.html",
-              "RelativeToolTip": "ServiciosWeb.S09\\wwwroot\\index.html",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAAGMAAAARAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "indexS09.html",
+              "DocumentMoniker": "C:\\Users\\pitop\\source\\repos\\Servicios_Web_MMFV\\ServiciosWeb.S09\\ServiciosWeb.S09\\wwwroot\\indexS09.html",
+              "RelativeDocumentMoniker": "ServiciosWeb.S09\\wwwroot\\indexS09.html",
+              "ToolTip": "C:\\Users\\pitop\\source\\repos\\Servicios_Web_MMFV\\ServiciosWeb.S09\\ServiciosWeb.S09\\wwwroot\\indexS09.html",
+              "RelativeToolTip": "ServiciosWeb.S09\\wwwroot\\indexS09.html",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAAAHkAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-06-05T17:43:05.712Z",
+              "WhenOpened": "2026-06-10T19:20:07.973Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ServiciosWeb.S09",
-              "DocumentMoniker": "C:\\Users\\Maryory\\source\\repos\\ServiciosWeb.S09\\ServiciosWeb.S09\\ServiciosWeb.S09.csproj",
-              "RelativeDocumentMoniker": "ServiciosWeb.S09\\ServiciosWeb.S09.csproj",
-              "ToolTip": "C:\\Users\\Maryory\\source\\repos\\ServiciosWeb.S09\\ServiciosWeb.S09\\ServiciosWeb.S09.csproj",
-              "RelativeToolTip": "ServiciosWeb.S09\\ServiciosWeb.S09.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-06-05T17:41:59.179Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CondicionalesController.cs",
-              "DocumentMoniker": "C:\\Users\\Maryory\\source\\repos\\ServiciosWeb.S09\\ServiciosWeb.S09\\Controllers\\CondicionalesController.cs",
-              "RelativeDocumentMoniker": "ServiciosWeb.S09\\Controllers\\CondicionalesController.cs",
-              "ToolTip": "C:\\Users\\Maryory\\source\\repos\\ServiciosWeb.S09\\ServiciosWeb.S09\\Controllers\\CondicionalesController.cs",
-              "RelativeToolTip": "ServiciosWeb.S09\\Controllers\\CondicionalesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-05T17:34:35.998Z",
+              "Title": "indexS10.html",
+              "DocumentMoniker": "C:\\Users\\pitop\\source\\repos\\Servicios_Web_MMFV\\ServiciosWeb.S09\\ServiciosWeb.S09\\wwwroot\\indexS10.html",
+              "RelativeDocumentMoniker": "ServiciosWeb.S09\\wwwroot\\indexS10.html",
+              "ToolTip": "C:\\Users\\pitop\\source\\repos\\Servicios_Web_MMFV\\ServiciosWeb.S09\\ServiciosWeb.S09\\wwwroot\\indexS10.html",
+              "RelativeToolTip": "ServiciosWeb.S09\\wwwroot\\indexS10.html",
+              "ViewState": "AgIAALcAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-06-10T19:16:17.511Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Maryory\\source\\repos\\ServiciosWeb.S09\\ServiciosWeb.S09\\Program.cs",
-              "RelativeDocumentMoniker": "ServiciosWeb.S09\\Program.cs",
-              "ToolTip": "C:\\Users\\Maryory\\source\\repos\\ServiciosWeb.S09\\ServiciosWeb.S09\\Program.cs",
-              "RelativeToolTip": "ServiciosWeb.S09\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAXAAAAAAAAAA==",
+              "Title": "CondicionalesController.cs",
+              "DocumentMoniker": "C:\\Users\\pitop\\source\\repos\\Servicios_Web_MMFV\\ServiciosWeb.S09\\ServiciosWeb.S09\\Controllers\\CondicionalesController.cs",
+              "RelativeDocumentMoniker": "ServiciosWeb.S09\\Controllers\\CondicionalesController.cs",
+              "ToolTip": "C:\\Users\\pitop\\source\\repos\\Servicios_Web_MMFV\\ServiciosWeb.S09\\ServiciosWeb.S09\\Controllers\\CondicionalesController.cs",
+              "RelativeToolTip": "ServiciosWeb.S09\\Controllers\\CondicionalesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-05T17:31:34.987Z",
+              "WhenOpened": "2026-06-10T19:13:40.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BucleController.cs",
+              "DocumentMoniker": "C:\\Users\\pitop\\source\\repos\\Servicios_Web_MMFV\\ServiciosWeb.S09\\ServiciosWeb.S09\\Controllers\\BucleController.cs",
+              "RelativeDocumentMoniker": "ServiciosWeb.S09\\Controllers\\BucleController.cs",
+              "ToolTip": "C:\\Users\\pitop\\source\\repos\\Servicios_Web_MMFV\\ServiciosWeb.S09\\ServiciosWeb.S09\\Controllers\\BucleController.cs",
+              "RelativeToolTip": "ServiciosWeb.S09\\Controllers\\BucleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T19:08:40.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pitop\\source\\repos\\Servicios_Web_MMFV\\ServiciosWeb.S09\\ServiciosWeb.S09\\Program.cs",
+              "RelativeDocumentMoniker": "ServiciosWeb.S09\\Program.cs",
+              "ToolTip": "C:\\Users\\pitop\\source\\repos\\Servicios_Web_MMFV\\ServiciosWeb.S09\\ServiciosWeb.S09\\Program.cs",
+              "RelativeToolTip": "ServiciosWeb.S09\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T19:06:55.519Z",
               "EditorCaption": ""
             }
           ]
